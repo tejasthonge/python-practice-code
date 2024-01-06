@@ -16,7 +16,9 @@ class Parent:
 class Child(Parent):
 
     def __init__(self):
+        
         print(id(self))
+       #Parent.init(self)
         super().__init__()   #this line we have to write but in other lang it added by compiler 
         print("in chid constroctor")
         
