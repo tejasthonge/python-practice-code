@@ -17,7 +17,7 @@ class Demo:
         print("creator")
         return object.__new__(self)  #we use super() replase of object
 
-    def __int__(self):
+    def __init__(self):
         print("constroctor")
 
 obj = Demo();
